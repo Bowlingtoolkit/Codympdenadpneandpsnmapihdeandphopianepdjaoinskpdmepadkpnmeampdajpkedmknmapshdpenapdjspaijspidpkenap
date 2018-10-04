@@ -3,7 +3,9 @@ const client = new Discord.Client();
  const prefix = "c!";
 
 
-
+client.on('ready', () => {
+client.user.setGame(`CodyCodes`,'https://www.twitch.tv/fofodiscord');
+});
 
 
 client.on('ready', () => {
