@@ -218,9 +218,10 @@ ${thisMessage}\`\`\`
 **وصف الكود**: ${boi}
 **تم النشر بواسطة**: ${message.author}
 **المصدر / الشخص الذي صنع الكود**: ${boi2}`); 
-          }
+message.react('✅') 
+		  message.react('❎')
         }
-    );
+    
 });
       });
     }
@@ -228,7 +229,7 @@ ${thisMessage}\`\`\`
     });
 }
 );
-      })}});
+      })})
 
 
 
@@ -1239,5 +1240,5 @@ client.on('message', function(message) {
 });
 
 
-
+    }})
 client.login(process.env.BOT_TOKEN)
