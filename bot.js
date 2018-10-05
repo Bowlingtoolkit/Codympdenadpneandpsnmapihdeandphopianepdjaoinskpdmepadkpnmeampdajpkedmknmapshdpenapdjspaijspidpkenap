@@ -217,19 +217,8 @@ ${thisMessage}\`\`\`
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 **وصف الكود**: ${boi}
 **تم النشر بواسطة**: ${message.author}
-**المصدر / الشخص الذي صنع الكود**: ${boi2}`); 
-message.react('✅') 
-		  message.react('❎')
-        }
-    
-});
-      });
-    }
-      );
-    });
-}
-);
-      })})
+**المصدر / الشخص الذي صنع الكود**: ${boi2}`).then(message => {
+  message.react('✅').then(() => message.react('❎'))
 
 
 
@@ -1240,5 +1229,13 @@ client.on('message', function(message) {
 });
 
 
-    }})
+        })
+      }})
+     })
+    })
+    })
+  })}
+  )}
+ )}
+})
 client.login(process.env.BOT_TOKEN)
