@@ -45,12 +45,12 @@ client.on('message', async message => {
     var fa2dh = '';// Alpha Codes
     var filter = m => m.author.id === message.author.id;// Alpha Codes
     var subChannel = message.guild.channels.find(c => c.name === 'support-join');// Alpha Codes
-   
+    let staff = message.guild.member(message.author).roles.find('name' , 'High Management');
     if(command == prefix + 'تقديم') {// Alpha Codes
         if(message.author.bot) return;
         if(message.channel.type === 'dm') return;
  
-        var modRole = message.guild.roles.find(r => r.name === 'Support');// Alpha Codes
+        var modRole = message.guild.roles.find(r => r.name === '✲ SUPPORT');// Alpha Codes
        
         if(message.guild.member(message.author).roles.has(modRole.id)) return message.channel.send(':x: | معك الرتبة');// Alpha Codes
         if(!subChannel) return message.channel.send(':x: | يجب ان يتوفر روم اسمه `support-join`');// Alpha Codes
@@ -112,15 +112,15 @@ client.on('message', async message => {
                                                 subChannel.send(subMsg).then(msgS => {
                                                     msgS.react('✅').then(() => msgS.react('❎'))
                                                    
-                                                    let accept = (reaction, user) => reaction.emoji.name === '✅' 
-                                                    let noAccept = (reaction, user) => reaction.emoji.name === '❎' 
+                                                    let accept = (reaction, user) => reaction.emoji.name === '✅'  && user.id === '432231487916736542' || user.id === '429972030092476437' 
+                                                    let noAccept = (reaction, user) => reaction.emoji.name === '❎' && user.id === '432231487916736542' || user.id === '429972030092476437' 
                                                    
                                                     let acceptRe = msgS.createReactionCollector(accept);
                                                     let noAcceptRe = msgS.createReactionCollector(noAccept);
                                                    
                                                     acceptRe.on('collect', r => {
                                                         msgS.delete();
-                                                        message.author.send(`:white_check_mark: | تم قبولك سبورت بسيرفر **${message.guild.name}**`);
+                                                        message.author.send(`:white_check_mark: | تم قبولك اداري بسيرفر **${message.guild.name}**`);
                                                         message.guild.member(message.author).addRole(modRole.id);
                                                         message.guild.channels.find(r => r.name === 'support-accept').send(`:white_check_mark: | تم قبولك [ <@${message.author.id}> ]`);
                                                     }).catch();
@@ -146,7 +146,6 @@ client.on('message', async message => {
         })
     }
 });
-
 
 
 
@@ -763,6 +762,7 @@ message.channel.sendEmbed(embed);
 
         }
     });
+
 
 
 
