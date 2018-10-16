@@ -206,6 +206,8 @@ client.on('message',async message => {
             if(thisFalse === false) return;
             msg.edit(':dove: **| Done :white_check_mark:, تم بنجاح نشر كودك في روم الاكواد**');
             collected.first().delete();
+            const ayy = client.emojis.find(emoji => emoji.name === "GooD");
+            const nos = client.emojis.find(emoji => emoji.name === "BaD")
             jscodes.send(`@everyone | @here
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 **${message.guild.name}© :arrow_down:**            
@@ -215,7 +217,7 @@ ${thisMessage}\`\`\`
 **وصف الكود**: ${boi}
 **تم النشر بواسطة**: ${message.author}
 **المصدر / الشخص الذي صنع الكود**: ${boi2}`).then(message => {
-  message.react(`<:Good:501786814701502494>`).then(() => message.react(`<:Good:501786814701502494>`))
+  message.react(ayy.id).then(() => message.react(nos.id))
 
 
 
