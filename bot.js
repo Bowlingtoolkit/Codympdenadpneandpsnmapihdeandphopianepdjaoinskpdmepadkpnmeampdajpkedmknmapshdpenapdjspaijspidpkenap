@@ -217,7 +217,7 @@ ${thisMessage}\`\`\`
 **وصف الكود**: ${boi}
 **تم النشر بواسطة**: ${message.author}
 **المصدر / الشخص الذي صنع الكود**: ${boi2}`).then(message => {
-  message.react(ayy).then(() => message.react(nos))
+  message.react("501786814701502494").then(() => message.react("501786909677322270"))
 
 
 
