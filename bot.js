@@ -215,7 +215,7 @@ ${thisMessage}\`\`\`
 **وصف الكود**: ${boi}
 **تم النشر بواسطة**: ${message.author}
 **المصدر / الشخص الذي صنع الكود**: ${boi2}`).then(message => {
-  message.react(`GooD`).then(() => message.react(`BaD`))
+  message.react(`\:GooD:`).then(() => message.react(`\:BaD:`))
 
 
 
