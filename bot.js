@@ -214,7 +214,7 @@ ${thisMessage}\`\`\`
 **وصف الكود**: ${boi}
 **تم النشر بواسطة**: ${message.author}
 **المصدر / الشخص الذي صنع الكود**: ${boi2}`).then(message => {
-  message.react(`${customemoji}`).then(() => message.react(`${customemoji}`))
+  message.react(`${client.emojis.find(r => r.name === 'BaD')}`).then(() => message.react(`${client.emojis.find(r => r.name === 'Good')}`))
 
 
 
