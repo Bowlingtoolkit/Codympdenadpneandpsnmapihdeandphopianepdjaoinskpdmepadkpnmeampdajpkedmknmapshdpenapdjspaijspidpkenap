@@ -208,15 +208,18 @@ client.on('message',async message => {
             collected.first().delete();
             const ayy = client.emojis.find(emoji => emoji.name === "GooD");
             const nos = client.emojis.find(emoji => emoji.name === "BaD")
+            const ter = client.emojis.find(emoji => emoji.name === "501785113814761473")
+            const Devt = client.emojis.find(emoji => emoji.name === "501785041358028811")
+            const m7twa = client.emojis.find(emoji => emoji.name === "501785575968210946")
             jscodes.send(`@everyone | @here
-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-**${message.guild.name}© :arrow_down:**            
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ 
+**${message.guild.name}© :arrow_down:**     
 \`\`\`js
 ${thisMessage}\`\`\`
-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-**وصف الكود**: ${boi}
-**تم النشر بواسطة**: ${message.author}
-**المصدر / الشخص الذي صنع الكود**: ${boi2}`).then(message => {
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ 
+${ter}**وصف الكود**: ${boi}
+${m7twa}**تم النشر بواسطة**: ${message.author}
+${Devt}**المصدر / الشخص الذي صنع الكود**: ${boi2}`).then(message => {
   message.react("501786814701502494").then(() => message.react("501786909677322270"))
 
 
