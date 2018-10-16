@@ -223,13 +223,13 @@ client.on('message', message => {
     if (message.content.startsWith(prefix + "help-js")) {
 let embed = new Discord.RichEmbed()
 .setThumbnail(message.author.avatarURL)
-.addField('     **#help-js-admin** ' ,' **قسم اكواد الاداريه** ')
-.addField('     **#help-js-source**  ' ,' **قسم اكواد السورس الاساسي** ')
-.addField('     **#help-js-general** ' , '**قسم اكواد العامة**')
-.addField('     **#help-js-welcome** ' , '**قسم اكواد الترحيب**')
-.addField('     **#help-js-help** ' ,' ** قسم اكواد الهلب**')
-.addField('     **#help-js-bc** ' , '**قسم اكواد البرودكاست**')
-.addField('     **#help-js-exports** ' , '**قسم اكواد الاكسبورت**')
+.addField('     **F!help-js-admin** ' ,' **قسم اكواد الاداريه** ')
+.addField('     **F!help-js-source**  ' ,' **قسم اكواد السورس الاساسي** ')
+.addField('     **F!help-js-general** ' , '**قسم اكواد العامة**')
+.addField('     **F!help-js-welcome** ' , '**قسم اكواد الترحيب**')
+.addField('     **F!help-js-help** ' ,' ** قسم اكواد الهلب**')
+.addField('     **F!help-js-bc** ' , '**قسم اكواد البرودكاست**')
+.addField('     **F!help-js-exports** ' , '**قسم اكواد الاكسبورت**')
 .setColor('RANDOM')
 message.channel.sendEmbed(embed);
 }
@@ -241,17 +241,17 @@ client.on('message', message => {
     if (message.content.startsWith(prefix + "help-js-admin")) {
 let embed = new Discord.RichEmbed()
 .setThumbnail(message.author.avatarURL)
-.addField('     **#help-js-admin-1 ** ' ,' **كود الباند** ')
-.addField('     **#help-js-admin-2 **  ' ,' **كود الكيك** ')
-.addField('     **#help-js-admin-3 ** ' , '**كود مسح الشات وشبيه بالبروبوت**')
-.addField('     **#help-js-admin-4** ' , '**كود تقفيل وفتح الشات**')
-.addField('     **#help-js-admin-5** ' , '**كود لانشاء شات كتابي**')
-.addField('     **#help-js-admin-6** ' , '**كود انشاء روم صوتي**')
-.addField('     **#help-js-admin-7** ' , '**invite : كود دعوه البوت مثال**')
-.addField('     **#help-js-admin-8** ' , '**كود رابط يرسله خاص ل 100شخص لمدة 24 ساعه**')
-.addField('     **#help-js-admin-9** ' , '**كود مسح الشات بالرياكشن**')
-.addField('     **#help-js-admin-10** ' , '**كود ميوت مؤقت**')
-.addField('     **#help-js-admin-11** ' , '**كود باند مؤقت**')
+.addField('     **F!help-js-admin-1 ** ' ,' **كود الباند** ')
+.addField('     **F!help-js-admin-2 **  ' ,' **كود الكيك** ')
+.addField('     **F!help-js-admin-3 ** ' , '**كود مسح الشات وشبيه بالبروبوت**')
+.addField('     **F!help-js-admin-4** ' , '**كود تقفيل وفتح الشات**')
+.addField('     **F!help-js-admin-5** ' , '**كود لانشاء شات كتابي**')
+.addField('     **F!help-js-admin-6** ' , '**كود انشاء روم صوتي**')
+.addField('     **F!help-js-admin-7** ' , '**invite : كود دعوه البوت مثال**')
+.addField('     **F!help-js-admin-8** ' , '**كود رابط يرسله خاص ل 100شخص لمدة 24 ساعه**')
+.addField('     **F!help-js-admin-9** ' , '**كود مسح الشات بالرياكشن**')
+.addField('     **F!help-js-admin-10** ' , '**كود ميوت مؤقت**')
+.addField('     **F!help-js-admin-11** ' , '**كود باند مؤقت**')
 .setColor('RANDOM')
 message.channel.sendEmbed(embed);
 
@@ -495,8 +495,8 @@ client.on('message', message => {
     if (message.content.startsWith(prefix + "help-js-source")) {
 let embed = new Discord.RichEmbed()
 .setThumbnail(message.author.avatarURL)
-.addField('     **#help-js-source-1 ** ' ,' **السورس الاساسي** ')
-.addField('     **#help-js-source-2 **  ' ,' **السورس الاساسي مع الستريمنق ومعلومات البوت** ')
+.addField('     **F!help-js-source-1 ** ' ,' **السورس الاساسي** ')
+.addField('     **F!help-js-source-2 **  ' ,' **السورس الاساسي مع الستريمنق ومعلومات البوت** ')
 .setColor('RANDOM')
 message.channel.sendEmbed(embed);
 
@@ -563,15 +563,15 @@ client.on('message', message => {
     if (message.content.startsWith(prefix + "help-js-general")) {
 let embed = new Discord.RichEmbed()
 .setThumbnail(message.author.avatarURL)
-.addField('     **#help-js-general-1 ** ' ,' **كود البنق** ')
-.addField('     **#help-js-general-2 **  ' ,' **كود القرعه** ')
-.addField('     **#help-js-general-3 ** ' , '**كود الافتار**')
-.addField('     **#help-js-general-4** ' , '**كود معلومات السيرفر**')
-.addField('     **#help-js-general-5** ' , '**كود معلومات الشخصيه**')
-.addField('     **#help-js-general-6** ' , '**كود كت تويت**')
-.addField('     **#help-js-general-7** ' , '**كود صراحه**')
-.addField('     **#help-js-general-8** ' , '**كود لبلاي وستريمينق واتشنق في كودواحد**')
-.addField('     **#help-js-general-9** ' , '**كود فورت نايت**')
+.addField('     **F!help-js-general-1 ** ' ,' **كود البنق** ')
+.addField('     **F!help-js-general-2 **  ' ,' **كود القرعه** ')
+.addField('     **F!help-js-general-3 ** ' , '**كود الافتار**')
+.addField('     **F!help-js-general-4** ' , '**كود معلومات السيرفر**')
+.addField('     **F!help-js-general-5** ' , '**كود معلومات الشخصيه**')
+.addField('     **F!help-js-general-6** ' , '**كود كت تويت**')
+.addField('     **F!help-js-general-7** ' , '**كود صراحه**')
+.addField('     **F!help-js-general-8** ' , '**كود لبلاي وستريمينق واتشنق في كودواحد**')
+.addField('     **F!help-js-general-9** ' , '**كود فورت نايت**')
 message.channel.sendEmbed(embed);
 
 
@@ -766,9 +766,9 @@ message.channel.sendEmbed(embed);
         if (message.content.startsWith(prefix + "help-js-welcome")) {
     let embed = new Discord.RichEmbed()
     .setThumbnail(message.author.avatarURL)
-    .addField('     **#help-js-welcome-1 ** ' ,' **كود ترحيب مع ذكر رقم عضو** ')
-    .addField('     **#help-js-welcome-2 **  ' ,' **كود ترحيب مع صوره** ')
-    .addField('     **#help-js-welcome-3 ** ' , '**كود مغادره العضو**')
+    .addField('     **F!help-js-welcome-1 ** ' ,' **كود ترحيب مع ذكر رقم عضو** ')
+    .addField('     **F!help-js-welcome-2 **  ' ,' **كود ترحيب مع صوره** ')
+    .addField('     **F!help-js-welcome-3 ** ' , '**كود مغادره العضو**')
     .setColor('RANDOM')
     message.channel.sendEmbed(embed);
 
@@ -843,8 +843,8 @@ message.channel.sendEmbed(embed);
             if (message.content.startsWith(prefix + "help-js-help")) {
         let embed = new Discord.RichEmbed()
         .setThumbnail(message.author.avatarURL)
-        .addField('     **#help-js-help-1 ** ' ,' **كود هلب مع امبد يرسل بنفس الشات** ')
-        .addField('     **#help-js-help-2 **  ' ,' **كود هلب مزخرف بدون امبد ويرسل عالخاص** ')
+        .addField('     **F!help-js-help-1 ** ' ,' **كود هلب مع امبد يرسل بنفس الشات** ')
+        .addField('     **F!help-js-help-2 **  ' ,' **كود هلب مزخرف بدون امبد ويرسل عالخاص** ')
         .setColor('RANDOM')
         message.channel.sendEmbed(embed);
 
@@ -896,11 +896,11 @@ message.channel.sendEmbed(embed);
             if (message.content.startsWith(prefix + "help-js-bc")) {
         let embed = new Discord.RichEmbed()
         .setThumbnail(message.author.avatarURL)
-        .addField('     **#help-js-bc-1 ** ' ,' ** برودكاست + للكل + مطور** ')
-        .addField('     **#help-js-bc-2 **  ' ,' **برودكاست + للكل + غير مطور ** ')
-        .addField('     **#help-js-bc-3 ** ' , '**برودكاست + للاونلاين + مع منشن + غير مطور**')
-        .addField('     **#help-js-bc-4** ' , '**برودكاست + للكل + مع منشن + غير مطور**')
-        .addField('     **#help-js-bc-5** ' , '**برودكاست + للكل + مع منشن + مطور+ رياكشن**')
+        .addField('     **F!help-js-bc-1 ** ' ,' ** برودكاست + للكل + مطور** ')
+        .addField('     **F!help-js-bc-2 **  ' ,' **برودكاست + للكل + غير مطور ** ')
+        .addField('     **F!help-js-bc-3 ** ' , '**برودكاست + للاونلاين + مع منشن + غير مطور**')
+        .addField('     **F!help-js-bc-4** ' , '**برودكاست + للكل + مع منشن + غير مطور**')
+        .addField('     **F!help-js-bc-5** ' , '**برودكاست + للكل + مع منشن + مطور+ رياكشن**')
         .setColor('RANDOM')
         message.channel.sendEmbed(embed);
 
@@ -1012,16 +1012,16 @@ client.on('message', message => {
     if (message.content.startsWith(prefix + "help-js-exports")) {
 let embed = new Discord.RichEmbed()
 .setThumbnail(message.author.avatarURL)
-.addField('     **#help-js-exports-1 ** ' ,' **كود الميوت المؤقت مطور ** ')
-.addField('     **#help-js-exports-2 **  ' ,' **كود الكيك** ')
-.addField('     **#help-js-exports-3 ** ' , '**كود مسح الشات**')
-.addField('     **#help-js-exports-4** ' , '**كود ساي**')
-.addField('     **#help-js-exports-5** ' , '**كود اعطاء شخص رتبه وازالتها**')
-.addField('     **#help-js-exports-6** ' , '**كود تغيير البريفكس**')
-.addField('     **#help-js-exports-7** ' , '**كود ابلاغ او ريبورت**')
-.addField('     **#help-js-exports-8** ' , '**كود معلومات السيرفر**')
-.addField('     **#help-js-exports-9** ' , '**كود معلومات البوت**')
-.addField('     **#help-js-exports-10** ' , '**كود كود الباند (مو مؤقت)ا**')
+.addField('     **F!help-js-exports-1 ** ' ,' **كود الميوت المؤقت مطور ** ')
+.addField('     **F!help-js-exports-2 **  ' ,' **كود الكيك** ')
+.addField('     **F!help-js-exports-3 ** ' , '**كود مسح الشات**')
+.addField('     **F!help-js-exports-4** ' , '**كود ساي**')
+.addField('     **F!help-js-exports-5** ' , '**كود اعطاء شخص رتبه وازالتها**')
+.addField('     **F!help-js-exports-6** ' , '**كود تغيير البريفكس**')
+.addField('     **F!help-js-exports-7** ' , '**كود ابلاغ او ريبورت**')
+.addField('     **F!help-js-exports-8** ' , '**كود معلومات السيرفر**')
+.addField('     **F!help-js-exports-9** ' , '**كود معلومات البوت**')
+.addField('     **F!help-js-exports-10** ' , '**كود كود الباند (مو مؤقت)ا**')
 .setColor('RANDOM')
 message.channel.sendEmbed(embed);
 
@@ -1209,7 +1209,7 @@ client.on('message', message => {
     }})
 
 client.on('message', function(message) {
-  var prefix = '$';
+  var prefix = 'F!';
     if(message.content.startsWith(prefix + 'roll')) {
         let args = message.content.split(" ").slice(1);
         if (!args[0]) {
