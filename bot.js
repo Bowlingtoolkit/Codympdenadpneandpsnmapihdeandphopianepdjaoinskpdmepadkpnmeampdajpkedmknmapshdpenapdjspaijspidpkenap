@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
- const prefix = "F!";
+const prefix = "F!";
 
 
 client.on('ready', () => {
@@ -150,8 +150,8 @@ const code = 'F!';
 client.on('message',async message => {
     if(message.content.startsWith(code + "js")) {
   if(!message.channel.guild) return message.reply('This Command For Servers Only !');
-          if(message.channel.name !== 'sharejs') return message.reply('يجب كتابه الامر في روم باسم sharejs')
-    let jscodes = message.guild.channels.find(`name`, "codes-js");
+          if(message.channel.name !== '✻-sharejs') return message.reply('يجب كتابه الامر في روم باسم ✻-sharejs')
+    let jscodes = message.guild.channels.find(`name`, "✻-codes-js");
     if(!jscodes) return message.channel.send(":x:لم اجد الروم الخاص بنشر الاكواد");
       let filter = m => m.author.id === message.author.id;
       let thisMessage;
