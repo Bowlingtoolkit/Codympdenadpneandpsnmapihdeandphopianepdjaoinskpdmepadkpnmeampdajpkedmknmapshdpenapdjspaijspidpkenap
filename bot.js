@@ -145,7 +145,7 @@ client.on('message', async message => {
 });
 
 
-const code = 'c!';
+const code = 'F!';
 
 client.on('message',async message => {
     if(message.content.startsWith(code + "js")) {
