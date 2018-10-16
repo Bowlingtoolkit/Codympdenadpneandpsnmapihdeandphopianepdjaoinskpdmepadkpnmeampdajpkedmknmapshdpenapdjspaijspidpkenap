@@ -1,10 +1,10 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
- const prefix = "c!";
+ const prefix = "F!";
 
 
 client.on('ready', () => {
-client.user.setGame(`CodyCodes`,'https://www.twitch.tv/fofodiscord');
+client.user.setGame(`Flame Codes.`,'https://www.twitch.tv/fofodiscord');
 });
 
 client.on('ready', () => {
