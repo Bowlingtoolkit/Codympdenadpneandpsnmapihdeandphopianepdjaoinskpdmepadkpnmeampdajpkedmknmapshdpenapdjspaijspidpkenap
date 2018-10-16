@@ -148,7 +148,8 @@ client.on('message', async message => {
 const code = 'F!';
 
 client.on('message',async message => {
-  let customemoji = client.emojis.find(r => r.name === 'GooD');
+  let customemojis = client.emojis.find(r => r.name === 'GooD');
+  let customemoji = client.emojis.find(r => r.name === 'BaD');
     if(message.content.startsWith(code + "js")) {
   if(!message.channel.guild) return message.reply('This Command For Servers Only !');
           if(message.channel.name !== '✻-sharejs') return message.reply('يجب كتابه الامر في روم باسم ✻-sharejs')
@@ -214,7 +215,7 @@ ${thisMessage}\`\`\`
 **وصف الكود**: ${boi}
 **تم النشر بواسطة**: ${message.author}
 **المصدر / الشخص الذي صنع الكود**: ${boi2}`).then(message => {
-  message.react(`${client.emojis.find(r => r.name === 'BaD')}`).then(() => message.react(`${client.emojis.find(r => r.name === 'Good')}`))
+  message.react(`${customemojis}`).then(() => message.react(`${customemoji}`))
 
 
 
