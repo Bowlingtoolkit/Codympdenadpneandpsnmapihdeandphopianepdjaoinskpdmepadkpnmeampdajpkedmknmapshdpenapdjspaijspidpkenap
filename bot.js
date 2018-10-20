@@ -11,16 +11,17 @@ client.on('ready', () => {
 
 });
 
-const ayy = client.emojis.find(emoji => emoji.name === "GooD");
+
+
+client.on('message',async message => {
+    if(message.content.startsWith(prefix + "js")) {
+      const ayy = client.emojis.find(emoji => emoji.name === "GooD");
 const nos = client.emojis.find(emoji => emoji.name === "BaD")
 const ter = client.emojis.get("501807338106126336");
 const Devt = client.emojis.get("501785041358028811");
 const m7twa = client.emojis.get("501785575968210946");
 let customemojis = client.emojis.find(r => r.name === 'GooD');
 let customemoji = client.emojis.find(r => r.name === 'BaD');
-
-client.on('message',async message => {
-    if(message.content.startsWith(prefix + "js")) {
   if(!message.channel.guild) return message.reply('This Command For Servers Only !');
           if(message.channel.name !== '✻-sharejs') return message.reply('يجب كتابه الامر في روم باسم ✻-sharejs')
     let jscodes = message.guild.channels.find(`name`, "✻-codes-js");
@@ -119,6 +120,13 @@ ${Devt}**المصدر / الشخص الذي صنع الكود**: ${boi2}`).then(
   client.on('message',async message => {
 
       if(message.content.startsWith(prefix + "py")) {
+        const ayy = client.emojis.find(emoji => emoji.name === "GooD");
+const nos = client.emojis.find(emoji => emoji.name === "BaD")
+const ter = client.emojis.get("501807338106126336");
+const Devt = client.emojis.get("501785041358028811");
+const m7twa = client.emojis.get("501785575968210946");
+let customemojis = client.emojis.find(r => r.name === 'GooD');
+let customemoji = client.emojis.find(r => r.name === 'BaD');
     if(!message.channel.guild) return message.reply('This Command For Servers Only !');
             if(message.channel.name !== '✻-sharejs') return message.reply('يجب كتابه الامر في روم باسم ✻-sharejs')
       let jscodes = message.guild.channels.find(`name`, "✻-codes-js");
@@ -218,6 +226,13 @@ ${Devt}**المصدر / الشخص الذي صنع الكود**: ${boi2}`).then(
     client.on('message',async message => {
 
         if(message.content.startsWith(prefix + "html")) {
+          const ayy = client.emojis.find(emoji => emoji.name === "GooD");
+const nos = client.emojis.find(emoji => emoji.name === "BaD")
+const ter = client.emojis.get("501807338106126336");
+const Devt = client.emojis.get("501785041358028811");
+const m7twa = client.emojis.get("501785575968210946");
+let customemojis = client.emojis.find(r => r.name === 'GooD');
+let customemoji = client.emojis.find(r => r.name === 'BaD');
       if(!message.channel.guild) return message.reply('This Command For Servers Only !');
               if(message.channel.name !== '✻-sharejs') return message.reply('يجب كتابه الامر في روم باسم ✻-sharejs')
         let jscodes = message.guild.channels.find(`name`, "✻-codes-js");
@@ -317,6 +332,13 @@ ${Devt}**المصدر / الشخص الذي صنع الكود**: ${boi2}`).then(
       client.on('message',async message => {
 
           if(message.content.startsWith(prefix + "eris")) {
+            const ayy = client.emojis.find(emoji => emoji.name === "GooD");
+const nos = client.emojis.find(emoji => emoji.name === "BaD")
+const ter = client.emojis.get("501807338106126336");
+const Devt = client.emojis.get("501785041358028811");
+const m7twa = client.emojis.get("501785575968210946");
+let customemojis = client.emojis.find(r => r.name === 'GooD');
+let customemoji = client.emojis.find(r => r.name === 'BaD');
         if(!message.channel.guild) return message.reply('This Command For Servers Only !');
                 if(message.channel.name !== '✻-sharejs') return message.reply('يجب كتابه الامر في روم باسم ✻-sharejs')
           let jscodes = message.guild.channels.find(`name`, "✻-codes-js");
