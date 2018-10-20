@@ -23,7 +23,7 @@ const m7twa = client.emojis.get("501785575968210946");
 let customemojis = client.emojis.find(r => r.name === 'GooD');
 let customemoji = client.emojis.find(r => r.name === 'BaD');
   if(!message.channel.guild) return message.reply('This Command For Servers Only !');
-          if(message.channel.name !== '✻-sharejs') return message.reply('يجب كتابه الامر في روم باسم ✻-sharejs')
+          if(message.channel.name !== '✻-sharecodes') return message.reply('يجب كتابه الامر في روم باسم ✻-sharecodes')
     let jscodes = message.guild.channels.find(`name`, "✻-codes-js");
     if(!jscodes) return message.channel.send(":x:لم اجد الروم الخاص بنشر الاكواد");
       let filter = m => m.author.id === message.author.id;
@@ -128,9 +128,9 @@ const m7twa = client.emojis.get("501785575968210946");
 let customemojis = client.emojis.find(r => r.name === 'GooD');
 let customemoji = client.emojis.find(r => r.name === 'BaD');
     if(!message.channel.guild) return message.reply('This Command For Servers Only !');
-            if(message.channel.name !== '✻-sharejs') return message.reply('يجب كتابه الامر في روم باسم ✻-sharejs')
-      let jscodes = message.guild.channels.find(`name`, "✻-codes-js");
-      if(!jscodes) return message.channel.send(":x:لم اجد الروم الخاص بنشر الاكواد");
+            if(message.channel.name !== '✻-sharecodes') return message.reply('يجب كتابه الامر في روم باسم ✻-sharecodes')
+      let pycodes = message.guild.channels.find(`name`, "✻-codes-py");
+      if(!pycodes) return message.channel.send(":x:لم اجد الروم الخاص بنشر الاكواد");
         let filter = m => m.author.id === message.author.id;
         let thisMessage;
         let thisFalse;
@@ -184,10 +184,10 @@ let customemoji = client.emojis.find(r => r.name === 'BaD');
               collected.first().delete();
 
               
-              jscodes.send(`@everyone | @here
+              pycodes.send(`@everyone | @here
   ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ 
   **${message.guild.name}© :arrow_down:**     
-  \`\`\`js
+  \`\`\`py
   ${thisMessage}\`\`\`
   ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ 
   ${ter}**وصف الكود**: ${boi}
@@ -234,9 +234,9 @@ const m7twa = client.emojis.get("501785575968210946");
 let customemojis = client.emojis.find(r => r.name === 'GooD');
 let customemoji = client.emojis.find(r => r.name === 'BaD');
       if(!message.channel.guild) return message.reply('This Command For Servers Only !');
-              if(message.channel.name !== '✻-sharejs') return message.reply('يجب كتابه الامر في روم باسم ✻-sharejs')
-        let jscodes = message.guild.channels.find(`name`, "✻-codes-js");
-        if(!jscodes) return message.channel.send(":x:لم اجد الروم الخاص بنشر الاكواد");
+              if(message.channel.name !== '✻-sharecodes') return message.reply('يجب كتابه الامر في روم باسم ✻-sharecodes')
+        let htmlcodes = message.guild.channels.find(`name`, "✻-codes-html");
+        if(!htmlcodes) return message.channel.send(":x:لم اجد الروم الخاص بنشر الاكواد");
           let filter = m => m.author.id === message.author.id;
           let thisMessage;
           let thisFalse;
@@ -290,10 +290,10 @@ let customemoji = client.emojis.find(r => r.name === 'BaD');
                 collected.first().delete();
 
                 
-                jscodes.send(`@everyone | @here
+                htmlcodes.send(`@everyone | @here
     ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ 
     **${message.guild.name}© :arrow_down:**     
-    \`\`\`py
+    \`\`\`html
     ${thisMessage}\`\`\`
     ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ 
     ${ter}**وصف الكود**: ${boi}
@@ -340,9 +340,9 @@ const m7twa = client.emojis.get("501785575968210946");
 let customemojis = client.emojis.find(r => r.name === 'GooD');
 let customemoji = client.emojis.find(r => r.name === 'BaD');
         if(!message.channel.guild) return message.reply('This Command For Servers Only !');
-                if(message.channel.name !== '✻-sharejs') return message.reply('يجب كتابه الامر في روم باسم ✻-sharejs')
-          let jscodes = message.guild.channels.find(`name`, "✻-codes-js");
-          if(!jscodes) return message.channel.send(":x:لم اجد الروم الخاص بنشر الاكواد");
+                if(message.channel.name !== '✻-sharecodes') return message.reply('يجب كتابه الامر في روم باسم ✻-sharecodes')
+          let eriscodes = message.guild.channels.find(`name`, "✻-codes-eris");
+          if(!eriscodes) return message.channel.send(":x:لم اجد الروم الخاص بنشر الاكواد");
             let filter = m => m.author.id === message.author.id;
             let thisMessage;
             let thisFalse;
@@ -396,7 +396,7 @@ let customemoji = client.emojis.find(r => r.name === 'BaD');
                   collected.first().delete();
 
                   
-                  jscodes.send(`@everyone | @here
+                  eriscodes.send(`@everyone | @here
       ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ 
       **${message.guild.name}© :arrow_down:**     
       \`\`\`eris
