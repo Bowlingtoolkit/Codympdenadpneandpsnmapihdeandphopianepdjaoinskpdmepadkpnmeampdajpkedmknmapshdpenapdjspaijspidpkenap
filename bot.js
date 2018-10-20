@@ -17,7 +17,7 @@ client.on('message',async message => {
     if(message.content.startsWith(prefix + "js")) {
       const ayy = client.emojis.find(emoji => emoji.name === "GooD");
 const nos = client.emojis.find(emoji => emoji.name === "BaD")
-const ter = client.emojis.get("501807338106126336");
+const ter = client.emojis.get("501785113814761473");
 const Devt = client.emojis.get("501785041358028811");
 const m7twa = client.emojis.get("501785575968210946");
 let customemojis = client.emojis.find(r => r.name === 'GooD');
@@ -88,7 +88,7 @@ ${thisMessage}\`\`\`
 ${ter}**وصف الكود**: ${boi}
 ${m7twa}**تم النشر بواسطة**: ${message.author}
 ${Devt}**المصدر / الشخص الذي صنع الكود**: ${boi2}`).then(message => {
-  message.react("501786814701502494").then(() => message.react("501786909677322270"))
+  message.react("501807338106126336").then(() => message.react("501786909677322270"))
 
 
                 })
@@ -122,7 +122,7 @@ ${Devt}**المصدر / الشخص الذي صنع الكود**: ${boi2}`).then(
       if(message.content.startsWith(prefix + "py")) {
         const ayy = client.emojis.find(emoji => emoji.name === "GooD");
 const nos = client.emojis.find(emoji => emoji.name === "BaD")
-const ter = client.emojis.get("501807338106126336");
+const ter = client.emojis.get("501785113814761473");
 const Devt = client.emojis.get("501785041358028811");
 const m7twa = client.emojis.get("501785575968210946");
 let customemojis = client.emojis.find(r => r.name === 'GooD');
@@ -193,7 +193,7 @@ let customemoji = client.emojis.find(r => r.name === 'BaD');
   ${ter}**وصف الكود**: ${boi}
   ${m7twa}**تم النشر بواسطة**: ${message.author}
   ${Devt}**المصدر / الشخص الذي صنع الكود**: ${boi2}`).then(message => {
-    message.react("501786814701502494").then(() => message.react("501786909677322270"))
+    message.react("501807338106126336").then(() => message.react("501786909677322270"))
   
   
   
@@ -228,7 +228,7 @@ let customemoji = client.emojis.find(r => r.name === 'BaD');
         if(message.content.startsWith(prefix + "html")) {
           const ayy = client.emojis.find(emoji => emoji.name === "GooD");
 const nos = client.emojis.find(emoji => emoji.name === "BaD")
-const ter = client.emojis.get("501807338106126336");
+const ter = client.emojis.get("501785113814761473");
 const Devt = client.emojis.get("501785041358028811");
 const m7twa = client.emojis.get("501785575968210946");
 let customemojis = client.emojis.find(r => r.name === 'GooD');
@@ -299,7 +299,7 @@ let customemoji = client.emojis.find(r => r.name === 'BaD');
     ${ter}**وصف الكود**: ${boi}
     ${m7twa}**تم النشر بواسطة**: ${message.author}
     ${Devt}**المصدر / الشخص الذي صنع الكود**: ${boi2}`).then(message => {
-      message.react("501786814701502494").then(() => message.react("501786909677322270"))
+      message.react("501807338106126336").then(() => message.react("501786909677322270"))
     
     
     
@@ -334,7 +334,7 @@ let customemoji = client.emojis.find(r => r.name === 'BaD');
           if(message.content.startsWith(prefix + "eris")) {
             const ayy = client.emojis.find(emoji => emoji.name === "GooD");
 const nos = client.emojis.find(emoji => emoji.name === "BaD")
-const ter = client.emojis.get("501807338106126336");
+const ter = client.emojis.get("501785113814761473");
 const Devt = client.emojis.get("501785041358028811");
 const m7twa = client.emojis.get("501785575968210946");
 let customemojis = client.emojis.find(r => r.name === 'GooD');
@@ -405,7 +405,7 @@ let customemoji = client.emojis.find(r => r.name === 'BaD');
       ${ter}**وصف الكود**: ${boi}
       ${m7twa}**تم النشر بواسطة**: ${message.author}
       ${Devt}**المصدر / الشخص الذي صنع الكود**: ${boi2}`).then(message => {
-        message.react("501786814701502494").then(() => message.react("501786909677322270"))
+        message.react("501807338106126336").then(() => message.react("501786909677322270"))
 
                 })
 
@@ -1253,7 +1253,7 @@ client.on('message', async rokz => {
 تم التقديم بواسطة: ${rokz.author}
 `).then(rokzzz => {
 
-                  rokzzz.react("501786814701502494")
+                  rokzzz.react("501807338106126336")
 
                   rokzzz.react("501786909677322270")
 
