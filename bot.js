@@ -3,6 +3,7 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 
 const prefix = "-"
+const code = '-'
 
 client.on('ready', () => {
 	client.user.setGame(`Flame Codes.`,'https://www.twitch.tv/fofodiscord');
@@ -17,10 +18,9 @@ const Devt = client.emojis.get("501785041358028811");
 const m7twa = client.emojis.get("501785575968210946");
 let customemojis = client.emojis.find(r => r.name === 'GooD');
 let customemoji = client.emojis.find(r => r.name === 'BaD');
-const code = '-';
 
 client.on('message',async message => {
-    if(message.content.startsWith(code + "js")) {
+    if(message.content.startsWith(prefix + "js")) {
   if(!message.channel.guild) return message.reply('This Command For Servers Only !');
           if(message.channel.name !== '✻-sharejs') return message.reply('يجب كتابه الامر في روم باسم ✻-sharejs')
     let jscodes = message.guild.channels.find(`name`, "✻-codes-js");
@@ -90,12 +90,35 @@ ${Devt}**المصدر / الشخص الذي صنع الكود**: ${boi2}`).then(
   message.react("501786814701502494").then(() => message.react("501786909677322270"))
 
 
+                })
+
+          }
+
+        }
+
+    );
+
+});
+
+      });
+
+    }
+
+      );
+
+    });
+
+}
+
+);
+
+      })}});
 
 
 
   client.on('message',async message => {
 
-      if(message.content.startsWith(code + "py")) {
+      if(message.content.startsWith(prefix + "py")) {
     if(!message.channel.guild) return message.reply('This Command For Servers Only !');
             if(message.channel.name !== '✻-sharejs') return message.reply('يجب كتابه الامر في روم باسم ✻-sharejs')
       let jscodes = message.guild.channels.find(`name`, "✻-codes-js");
@@ -166,12 +189,35 @@ ${Devt}**المصدر / الشخص الذي صنع الكود**: ${boi2}`).then(
   
   
   
+                })
+
+          }
+
+        }
+
+    );
+
+});
+
+      });
+
+    }
+
+      );
+
+    });
+
+}
+
+);
+
+      })}});
   
 
 
     client.on('message',async message => {
 
-        if(message.content.startsWith(code + "html")) {
+        if(message.content.startsWith(prefix + "html")) {
       if(!message.channel.guild) return message.reply('This Command For Servers Only !');
               if(message.channel.name !== '✻-sharejs') return message.reply('يجب كتابه الامر في روم باسم ✻-sharejs')
         let jscodes = message.guild.channels.find(`name`, "✻-codes-js");
@@ -243,11 +289,34 @@ ${Devt}**المصدر / الشخص الذي صنع الكود**: ${boi2}`).then(
     
     
     
+                })
+
+          }
+
+        }
+
+    );
+
+});
+
+      });
+
+    }
+
+      );
+
+    });
+
+}
+
+);
+
+      })}});
   
 
       client.on('message',async message => {
 
-          if(message.content.startsWith(code + "eris")) {
+          if(message.content.startsWith(prefix + "eris")) {
         if(!message.channel.guild) return message.reply('This Command For Servers Only !');
                 if(message.channel.name !== '✻-sharejs') return message.reply('يجب كتابه الامر في روم باسم ✻-sharejs')
           let jscodes = message.guild.channels.find(`name`, "✻-codes-js");
@@ -316,40 +385,29 @@ ${Devt}**المصدر / الشخص الذي صنع الكود**: ${boi2}`).then(
       ${Devt}**المصدر / الشخص الذي صنع الكود**: ${boi2}`).then(message => {
         message.react("501786814701502494").then(() => message.react("501786909677322270"))
 
-      })
-    }})
-  })
-})})
-              })
-            })
-          })
-        }})
-      })
-    }})
-  })
-})
-                })
-              })
-            })
-          })
-        }})
-      })
-    }})
-  })
-})
-              })
-            })
-          })
-        })}})
-      })
-    }})
-  })
-})
-            })
-          })
-        })
-      })
-    }})
+                })
+
+          }
+
+        }
+
+    );
+
+});
+
+      });
+
+    }
+
+      );
+
+    });
+
+}
+
+);
+
+      })}});
 
   
 
