@@ -1904,20 +1904,6 @@ https://pastebin.com/NC32yt0v
 });
 
 
-client.on('message', message => {
-var prefix = "#"
-  if (message.content.startsWith(prefix + 'js')) {
-	let code = message.content.split(" ").slice(2).join(" ")
-	let supportrole = message.guild.member(message.author).roles.find('name', 'Support', 'Support+');
-	if(!supportrole) return message.reply('انت ليس معك الرتبه المطلوبه')
-	if(!code) return message.channel.send(`لو سمحت اكتب وصف الكود`)
-	let applychannel = message.guild.channels.find(`name`, "codes-js")
-	if(!applychannel) return message.channel.send("Channel does not exist.")
-	applychannel.send(`@everyonne New Javascript code by ${message.author} \`\`\`js
-${code}\`\`\``)
-  }});
-
-
 
 
 
