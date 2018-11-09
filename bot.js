@@ -1105,39 +1105,39 @@ client.on('message', async message =>{
   
 
 
-_─══════ {✯Ping Development✯} ══════─_
+_─══════ {✯DISCORDJS CLUB✯} ══════─_
 
 __الاوامرالخاصة__:spy::skin-tone-1: 
 
-\`\`-js\`\` | نشر اكواد جافا سكريبت
+\`\`#js\`\` | نشر اكواد جافا سكريبت
 
-\`\`-py\`\` | نشر اكواد بايثون
+\`\`#py\`\` | نشر اكواد بايثون
 
-\`\`-html\`\` | نشر اكواد اتشتيامل
+\`\`#html\`\` | نشر اكواد اتشتيامل
 
-\`\`-تقديم\`\` |
+\`\`#تقديم\`\` |
 
-\`\`-قبول\`\` |
+\`\`#قبول\`\` |
 
-\`\`-رفض\`\` |
+\`\`#رفض\`\` |
 
 
 ∞⋅∾◅▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▻∾⋅∞
 
 __اوامر صاحب البوت__:cherry_blossom: 
 
-\`\`-bc\`\`| امر البرودكاست
-\`\`-ban\`\`| لحظر شخص من السيرفر
-\`\`-unban\`\`| لفك الحظر عن شخص من السيرفر
-\`\`-mute\`\`| لأسكات عضو
-\`\`-unmute\`\`| لفك الاسكات عن العضو
-\`\`-kick\`\`| لطرد عضو
-\`\`-mutechannel\`\`| قفل الشات
-\`\`-unmutechannel\`\`| فك القفل عن الشات
-\`\`-clear\`\`| لمسح الشات
-\`\`-role\`\`| اعطاء شخص رتبة
-\`\`-roleremove\`\`| ازالة رتبة من شخص
-\`\`-say\`\`| التكلم عبر البوت
+\`\`#bc\`\`| امر البرودكاست
+\`\`#ban\`\`| لحظر شخص من السيرفر
+\`\`#unban\`\`| لفك الحظر عن شخص من السيرفر
+\`\`#mute\`\`| لأسكات عضو
+\`\`#unmute\`\`| لفك الاسكات عن العضو
+\`\`#kick\`\`| لطرد عضو
+\`\`#mutechannel\`\`| قفل الشات
+\`\`#unmutechannel\`\`| فك القفل عن الشات
+\`\`#clear\`\`| لمسح الشات
+\`\`#role\`\`| اعطاء شخص رتبة
+\`\`#roleremove\`\`| ازالة رتبة من شخص
+\`\`#say\`\`| التكلم عبر البوت
 
 _─══════ {✯Ping Development✯} ══════─_
 
@@ -1344,9 +1344,9 @@ if(message.content ===  prefix + "help"){
 .addField(" **❧#help1 ➺      ⦁قائمة الاكواد ⦁  **",' ‎ ')
 .addField("**❧#help2 ➺      ⦁ أوامر عامة ⦁** ",' ‎ ')
 .addField("**❧#help3 ➺      ⦁ أوامر الأدارة + السبورت ⦁**",' ‎ ')
- .addField("─══════ {✯**FlameCodes**✯} ══════─",' ‎ ')
+ .addField("─══════ {✯**DISCORDJS CLUB**✯} ══════─",' ‎ ')
 
-.setFooter('FlameCodes')
+.setFooter('DISCORDJS CLUB')
 
 
 message.channel.send({embed});
@@ -1366,13 +1366,13 @@ if (message.content  === prefix + "help1") {
 .setColor('RANDOM')
 .setTimestamp()
 
-.addField("⦁`All types of codes in FlameCodes Server 💬`⦁",' ‎ ')
+.addField("⦁`All types of codes in DISCORDJS CLUB Server 💬`⦁",' ‎ ')
 .addField("❧  **#help-js  ➺      ⦁ قائمة أكواد الجافا سكربت**  ⦁",' ‎ ')
 .addField("❧  **#help-py  ➺      ⦁ قائمة أكواد البايثون**  ⦁",' ‎ ')
 .addField("❧  **#help-eris  ➺    ⦁ قائمة أكواد الإرس** ⦁",' ‎ ')
  .addField("❧  **#help-io  ➺      ⦁ قائمة أكواد الآي أو** ⦁",' ‎ ')
 
-.setFooter('FlameCodes')
+.setFooter('DISCORDJS CLUB')
 
 
 message.channel.send({embed});
@@ -1392,14 +1392,14 @@ if (message.content  === prefix + "help-js") {
 .setColor('RANDOM')
 .setTimestamp()
 
-.addField("⦁`All types of codes in FlameCodes Server 💬`⦁",' ‎ ')
+.addField("⦁`All types of codes in DISCORDJS CLUB Server 💬`⦁",' ‎ ')
 .addField("❧  **#help-js-source    ➺      ⦁ قسم السورس الأساسي** ⦁",' ‎ ')
 .addField("❧  **#help-js-admin     ➺      ⦁ قسم الأكواد الإدارية** ⦁",' ‎ ')
 .addField("❧  **#help-js-general   ➺      ⦁ قسم الأكواد العامة*** ⦁",' ‎ ')
  .addField("❧  **#help-js-welcome   ➺      ⦁ قسم أكواد الترحيب** ⦁",' ‎ ')
 	  .addField("❧  **#help-js-help      ➺      ⦁ قسم أكواد الهلب** ⦁",' ‎ ')
 			.addField("❧  **#help-js-bc        ➺      ⦁ قسم أكواد البرودكاست** ⦁",' ‎ ')
-.setFooter('FlameCodes')
+.setFooter('DISCORDJS CLUB')
 
 
 message.channel.send({embed});
@@ -1418,13 +1418,13 @@ if (message.content  === prefix + "help-js-source") {
 .setColor('RANDOM')
 .setTimestamp()
 
-.addField("⦁`All types of codes in FlameCodes Server 💬`⦁",' ‎ ')
+.addField("⦁`All types of codes in DISCORDJS CLUB Server 💬`⦁",' ‎ ')
 .addField("**#help-js-source-1  ➺      ⦁ السورس الأساسي**⦁",' ‎ ')
 .addField("**#help-js-source-2  ➺      ⦁ السورس الأساسي مع الستريمنق ومعلومات البوت** ⦁",' ‎ ')
 .addField("**#help-js-source-3  ➺      ⦁ السورس الأساسي مع الستريمنق ومعلومات البوت** ⦁",' ‎ ')
  .addField("**#help-js-source-4  ➺      ⦁ السورس الأساسي مع الستريمنق ومعلومات البوت** ⦁",' ‎ ')
 
-.setFooter('FlameCodes')
+.setFooter('DISCORDJS CLUB')
 
 
 message.channel.send({embed});
@@ -1541,7 +1541,7 @@ if (message.content  === prefix + "help-js-admin") {
 .setColor('RANDOM')
 .setTimestamp()
 
-.addField("⦁`All types of codes in FlameCodes Server 💬`⦁",' ‎ ')
+.addField("⦁`All types of codes in DISCORDJS CLUB Server 💬`⦁",' ‎ ')
 .addField("**#help-js-admin-1  ➺      ⦁ كود الباند**⦁",' ‎ ')
 .addField("**#help-js-admin-2  ➺      ⦁ كود الكيك** ⦁",' ‎ ')
 .addField("**#help-js-admin-3  ➺      ⦁ كود مسح الشات مع عدد وشبيه بالبروبوت** ⦁",' ‎ ')
@@ -1553,7 +1553,7 @@ if (message.content  === prefix + "help-js-admin") {
 
 
 
-.setFooter('FlameCodes')
+.setFooter('DISCORDJS CLUB')
 
 
 message.channel.send({embed});
@@ -1734,7 +1734,7 @@ if (message.content  === prefix + "help-js-general") {
 .setColor('RANDOM')
 .setTimestamp()
 
-.addField("⦁`All types of codes in FlameCodes Server 💬`⦁",' ‎ ')
+.addField("⦁`All types of codes in DISCORDJS CLUB Server 💬`⦁",' ‎ ')
 .addField("**#help-js-general-1  ➺      ⦁ كود البنق **⦁",' ‎ ')
 .addField("**#help-js-general-2  ➺      ⦁ كود القرعة ** ⦁",' ‎ ')
 .addField("**#help-js-general-3  ➺      ⦁ كود الافتار  ** ⦁",' ‎ ')	  
@@ -1744,7 +1744,7 @@ if (message.content  === prefix + "help-js-general") {
 .addField("**#help-js-general-7  ➺      ⦁ كود صراحه** ⦁",' ‎ ')	  
 
 
-.setFooter('FlameCodes')
+.setFooter('DISCORDJS CLUB')
 
 message.channel.send({embed});
 
@@ -1917,14 +1917,14 @@ if (message.content  === prefix + "help-js-welcome") {
 .setColor('RANDOM')
 .setTimestamp()
 
-.addField("⦁`All types of codes in FlameCodes Server 💬`⦁",' ‎ ')
+.addField("⦁`All types of codes in DISCORDJS CLUB Server 💬`⦁",' ‎ ')
 .addField("**#help-js-welcome-1  ➺      ⦁ كود ترحيب مع ذكر رقم العضو **⦁",' ‎ ')
 .addField("**#help-js-welcome-2  ➺      ⦁ كود الترحيب مع صورة ** ⦁",' ‎ ')
 .addField("**#help-js-welcome-3  ➺      ⦁ كود مغادرة العضو ** ⦁",' ‎ ')
 
 
 	 
-.setFooter('FlameCodes')
+.setFooter('DISCORDJS CLUB')
 
 
 message.channel.send({embed});
@@ -2009,11 +2009,11 @@ if (message.content  === prefix + "help-js-help") {
 .setColor('RANDOM')
 .setTimestamp()
 
-.addField("⦁`All types of codes in FlameCodes Server 💬`⦁",' ‎ ')
+.addField("⦁`All types of codes in DISCORDJS CLUB Server 💬`⦁",' ‎ ')
 .addField("**#help-js-help-1  ➺      ⦁ كود هلب مع امبد يرسل بنفس الشات **⦁",' ‎ ')
 .addField("**#help-js-help-2  ➺      ⦁ كود هلب مزخرف بدون امبد ويرسل عالخاص ** ⦁",' ‎ ')
 	 
-.setFooter('FlameCodes')
+.setFooter('DISCORDJS CLUB')
 
 
 message.channel.send({embed});
@@ -2077,13 +2077,13 @@ if (message.content  === prefix + "help-js-bc") {
 .setColor('RANDOM')
 .setTimestamp()
 
-.addField("⦁`All types of codes in FlameCodes Server 💬`⦁",' ‎ ')
+.addField("⦁`All types of codes in DISCORDJS CLUB Server 💬`⦁",' ‎ ')
 .addField("**#help-js-bc-1  ➺      ⦁ برودكاست + للكل + مطور **⦁",' ‎ ')
 .addField("**#help-js-bc-2  ➺      ⦁ برودكاست + للكل + غير مطور ** ⦁",' ‎ ')
 .addField("**#help-js-bc-3  ➺      ⦁ برودكاست + للأونلاين + مع منشن + غير مطور **⦁",' ‎ ')
 .addField("**#help-js-bc-4  ➺      ⦁ برودكاست + للكل + مع منشن + غير مطور ** ⦁",' ‎ ')	   
 	 
-.setFooter('FlameCodes')
+.setFooter('DISCORDJS CLUB')
 
 
 message.channel.send({embed});
