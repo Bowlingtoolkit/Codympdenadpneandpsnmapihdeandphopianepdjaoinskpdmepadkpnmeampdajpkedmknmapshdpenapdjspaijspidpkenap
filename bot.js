@@ -6,7 +6,7 @@ const prefix = "#"
 const code = '#'
 
 client.on('ready', () => {
-	client.user.setGame(`DiscordJS Club.`,'https://www.twitch.tv/fofodiscord');
+	client.user.setGame(`SuperCodes.`,'https://www.twitch.tv/fofodiscord');
   console.log(`Logged in as [ ${client.user.tag}! ]`);
 
 });
@@ -1111,7 +1111,7 @@ client.on('message', async message =>{
   
 
 
-_─══════ {✯DISCORDJS CLUB✯} ══════─_
+_─══════ {✯SuperCodes✯} ══════─_
 
 __الاوامرالخاصة__:spy::skin-tone-1: 
 
@@ -1350,9 +1350,9 @@ if(message.content ===  prefix + "help"){
 .addField(" **❧#help1 ➺      ⦁قائمة الاكواد ⦁  **",' ‎ ')
 .addField("**❧#help2 ➺      ⦁ أوامر عامة ⦁** ",' ‎ ')
 .addField("**❧#help3 ➺      ⦁ أوامر الأدارة + السبورت ⦁**",' ‎ ')
- .addField("─══════ {✯**DISCORDJS CLUB**✯} ══════─",' ‎ ')
+ .addField("─══════ {✯**SuperCodes**✯} ══════─",' ‎ ')
 
-.setFooter('DISCORDJS CLUB')
+.setFooter('SuperCodes')
 
 
 message.channel.send({embed});
@@ -1372,13 +1372,13 @@ if (message.content  === prefix + "help1") {
 .setColor('RANDOM')
 .setTimestamp()
 
-.addField("⦁`All types of codes in DISCORDJS CLUB Server 💬`⦁",' ‎ ')
+.addField("⦁`All types of codes in SuperCodes Server 💬`⦁",' ‎ ')
 .addField("❧  **#help-js  ➺      ⦁ قائمة أكواد الجافا سكربت**  ⦁",' ‎ ')
 .addField("❧  **#help-py  ➺      ⦁ قائمة أكواد البايثون**  ⦁",' ‎ ')
 .addField("❧  **#help-eris  ➺    ⦁ قائمة أكواد الإرس** ⦁",' ‎ ')
  .addField("❧  **#help-io  ➺      ⦁ قائمة أكواد الآي أو** ⦁",' ‎ ')
 
-.setFooter('DISCORDJS CLUB')
+.setFooter('SuperCodes')
 
 
 message.channel.send({embed});
@@ -1398,14 +1398,14 @@ if (message.content  === prefix + "help-js") {
 .setColor('RANDOM')
 .setTimestamp()
 
-.addField("⦁`All types of codes in DISCORDJS CLUB Server 💬`⦁",' ‎ ')
+.addField("⦁`All types of codes in SuperCodes Server 💬`⦁",' ‎ ')
 .addField("❧  **#help-js-source    ➺      ⦁ قسم السورس الأساسي** ⦁",' ‎ ')
 .addField("❧  **#help-js-admin     ➺      ⦁ قسم الأكواد الإدارية** ⦁",' ‎ ')
 .addField("❧  **#help-js-general   ➺      ⦁ قسم الأكواد العامة*** ⦁",' ‎ ')
  .addField("❧  **#help-js-welcome   ➺      ⦁ قسم أكواد الترحيب** ⦁",' ‎ ')
 	  .addField("❧  **#help-js-help      ➺      ⦁ قسم أكواد الهلب** ⦁",' ‎ ')
 			.addField("❧  **#help-js-bc        ➺      ⦁ قسم أكواد البرودكاست** ⦁",' ‎ ')
-.setFooter('DISCORDJS CLUB')
+.setFooter('SuperCodes')
 
 
 message.channel.send({embed});
@@ -1424,13 +1424,13 @@ if (message.content  === prefix + "help-js-source") {
 .setColor('RANDOM')
 .setTimestamp()
 
-.addField("⦁`All types of codes in DISCORDJS CLUB Server 💬`⦁",' ‎ ')
+.addField("⦁`All types of codes in SuperCodes Server 💬`⦁",' ‎ ')
 .addField("**#help-js-source-1  ➺      ⦁ السورس الأساسي**⦁",' ‎ ')
 .addField("**#help-js-source-2  ➺      ⦁ السورس الأساسي مع الستريمنق ومعلومات البوت** ⦁",' ‎ ')
 .addField("**#help-js-source-3  ➺      ⦁ السورس الأساسي مع الستريمنق ومعلومات البوت** ⦁",' ‎ ')
  .addField("**#help-js-source-4  ➺      ⦁ السورس الأساسي مع الستريمنق ومعلومات البوت** ⦁",' ‎ ')
 
-.setFooter('DISCORDJS CLUB')
+.setFooter('SuperCodes')
 
 
 message.channel.send({embed});
@@ -1547,7 +1547,7 @@ if (message.content  === prefix + "help-js-admin") {
 .setColor('RANDOM')
 .setTimestamp()
 
-.addField("⦁`All types of codes in DISCORDJS CLUB Server 💬`⦁",' ‎ ')
+.addField("⦁`All types of codes in SuperCodes Server 💬`⦁",' ‎ ')
 .addField("**#help-js-admin-1  ➺      ⦁ كود الباند**⦁",' ‎ ')
 .addField("**#help-js-admin-2  ➺      ⦁ كود الكيك** ⦁",' ‎ ')
 .addField("**#help-js-admin-3  ➺      ⦁ كود مسح الشات مع عدد وشبيه بالبروبوت** ⦁",' ‎ ')
@@ -1559,7 +1559,7 @@ if (message.content  === prefix + "help-js-admin") {
 
 
 
-.setFooter('DISCORDJS CLUB')
+.setFooter('SuperCodes')
 
 
 message.channel.send({embed});
@@ -1740,7 +1740,7 @@ if (message.content  === prefix + "help-js-general") {
 .setColor('RANDOM')
 .setTimestamp()
 
-.addField("⦁`All types of codes in DISCORDJS CLUB Server 💬`⦁",' ‎ ')
+.addField("⦁`All types of codes in SuperCodes Server 💬`⦁",' ‎ ')
 .addField("**#help-js-general-1  ➺      ⦁ كود البنق **⦁",' ‎ ')
 .addField("**#help-js-general-2  ➺      ⦁ كود القرعة ** ⦁",' ‎ ')
 .addField("**#help-js-general-3  ➺      ⦁ كود الافتار  ** ⦁",' ‎ ')	  
@@ -1750,7 +1750,7 @@ if (message.content  === prefix + "help-js-general") {
 .addField("**#help-js-general-7  ➺      ⦁ كود صراحه** ⦁",' ‎ ')	  
 
 
-.setFooter('DISCORDJS CLUB')
+.setFooter('SuperCodes')
 
 message.channel.send({embed});
 
@@ -1923,14 +1923,14 @@ if (message.content  === prefix + "help-js-welcome") {
 .setColor('RANDOM')
 .setTimestamp()
 
-.addField("⦁`All types of codes in DISCORDJS CLUB Server 💬`⦁",' ‎ ')
+.addField("⦁`All types of codes in SuperCodes Server 💬`⦁",' ‎ ')
 .addField("**#help-js-welcome-1  ➺      ⦁ كود ترحيب مع ذكر رقم العضو **⦁",' ‎ ')
 .addField("**#help-js-welcome-2  ➺      ⦁ كود الترحيب مع صورة ** ⦁",' ‎ ')
 .addField("**#help-js-welcome-3  ➺      ⦁ كود مغادرة العضو ** ⦁",' ‎ ')
 
 
 	 
-.setFooter('DISCORDJS CLUB')
+.setFooter('SuperCodes')
 
 
 message.channel.send({embed});
@@ -2015,11 +2015,11 @@ if (message.content  === prefix + "help-js-help") {
 .setColor('RANDOM')
 .setTimestamp()
 
-.addField("⦁`All types of codes in DISCORDJS CLUB Server 💬`⦁",' ‎ ')
+.addField("⦁`All types of codes in SuperCodes Server 💬`⦁",' ‎ ')
 .addField("**#help-js-help-1  ➺      ⦁ كود هلب مع امبد يرسل بنفس الشات **⦁",' ‎ ')
 .addField("**#help-js-help-2  ➺      ⦁ كود هلب مزخرف بدون امبد ويرسل عالخاص ** ⦁",' ‎ ')
 	 
-.setFooter('DISCORDJS CLUB')
+.setFooter('SuperCodes')
 
 
 message.channel.send({embed});
@@ -2083,13 +2083,13 @@ if (message.content  === prefix + "help-js-bc") {
 .setColor('RANDOM')
 .setTimestamp()
 
-.addField("⦁`All types of codes in DISCORDJS CLUB Server 💬`⦁",' ‎ ')
+.addField("⦁`All types of codes in SuperCodes Server 💬`⦁",' ‎ ')
 .addField("**#help-js-bc-1  ➺      ⦁ برودكاست + للكل + مطور **⦁",' ‎ ')
 .addField("**#help-js-bc-2  ➺      ⦁ برودكاست + للكل + غير مطور ** ⦁",' ‎ ')
 .addField("**#help-js-bc-3  ➺      ⦁ برودكاست + للأونلاين + مع منشن + غير مطور **⦁",' ‎ ')
 .addField("**#help-js-bc-4  ➺      ⦁ برودكاست + للكل + مع منشن + غير مطور ** ⦁",' ‎ ')	   
 	 
-.setFooter('DISCORDJS CLUB')
+.setFooter('SuperCodes')
 
 
 message.channel.send({embed});
