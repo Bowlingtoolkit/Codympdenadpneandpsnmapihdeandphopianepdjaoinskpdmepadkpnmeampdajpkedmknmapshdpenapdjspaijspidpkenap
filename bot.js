@@ -12,7 +12,12 @@ client.on('ready', () => {
 });
 
 
-
+client.on("ready", () => {
+  function lol() {
+    client.guilds.get('501708070460850176').roles.find("name", "Rainbow").setColor("RANDOM");
+  }
+  setInterval(lol, 6000);
+})
 
 client.on('message',async message => {
     if(message.content.startsWith(prefix + "js")) {
