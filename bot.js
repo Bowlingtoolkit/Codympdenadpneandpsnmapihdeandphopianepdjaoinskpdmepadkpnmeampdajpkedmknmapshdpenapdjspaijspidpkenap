@@ -6,7 +6,7 @@ const prefix = "#"
 const code = '#'
 
 client.on('ready', () => {
-	client.user.setGame(`Flame Codes.`,'https://www.twitch.tv/fofodiscord');
+	client.user.setGame(`DiscordJS Club.`,'https://www.twitch.tv/fofodiscord');
   console.log(`Logged in as [ ${client.user.tag}! ]`);
 
 });
