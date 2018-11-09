@@ -13,6 +13,7 @@ client.on('ready', () => {
 
 
 
+
 client.on('message',async message => {
     if(message.content.startsWith(prefix + "js")) {
       const ayy = client.emojis.find(emoji => emoji.name === "GooD");
